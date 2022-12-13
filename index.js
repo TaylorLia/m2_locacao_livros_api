@@ -7,7 +7,7 @@ const cors = require('cors')
 const config = require('./config')
 const usersRoutes = require('./routes/users-routes')
 const booksRoutes = require('./routes/books-routes')
-const hiresRoutes = require('./routes/hires-routes')
+const hiresRoutes = require('./routes/hire-routes')
 
 // Inicializando o Express
 const app = express()
